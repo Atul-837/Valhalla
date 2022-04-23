@@ -24,7 +24,7 @@ function App() {
           <Route path="/New_Releases" element={<NewReleases />} />
         </Routes>
         <div>jsdfhkshfkklsd</div>
-        <div>wioefij784748jkdjkds</div>
+        
       </div>
     </Router>
   );
