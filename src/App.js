@@ -23,9 +23,10 @@ function App() {
           <Route path="/Profile" element={<Profile />} />
           <Route path="/New_Releases" element={<NewReleases />} />
         </Routes>
+        <div>jsdfhkshfkklsd</div>
       </div>
     </Router>
-  )
+  );
 }
 
 export default App;
