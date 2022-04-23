@@ -1,0 +1,13 @@
+.randomSongs{
+    display: flex;
+    justify-content:center;  
+    border-radius: 10px;
+    width: 99%;
+    
+}
+
+.random-song{
+    box-shadow: rgb(121, 147, 60) 0px 22px 70px 4px;
+    margin: 7px;
+    border-radius: 20px;
+}

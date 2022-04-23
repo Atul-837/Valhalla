@@ -1,0 +1,61 @@
+.c-player{
+    background-color: rgb(158, 169, 181);
+    height: 490px;
+    width: 320px;
+    padding: 10px;
+    padding-top: 30px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: rgb(143, 145, 44) 0px 22px 70px 4px;
+    margin-left: 88px;
+}
+.details-img > img{
+    height: 150px;
+    width: 150px;
+    border-radius: 30% ;
+    box-shadow: -5px -5px 30px 5px rgb(102, 67, 67),
+    5px 5px 30px 5px rgb(65, 65, 87);
+} 
+
+.player-btn{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(158, 169, 181);
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+ 
+}
+.play-btn {
+    
+    width: 50px;
+    height: 50px;
+    background-color: rgb(126, 103, 8);
+    margin: 5px;
+    border: none;
+    border-radius: 100%;
+    box-shadow: 0 0 10px 5px rgba(5, 5, 107, 0.396);
+    
+}
+.songName{
+    margin-top: 30px;
+    color: rgb(64, 54, 109);
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+ .artist,.next{
+     margin-top: 20px;
+    color: rgb(64, 54, 109);
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+.playing{
+    margin-bottom: 20px;
+    color: rgb(64, 54, 109);
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+
+.controls{
+    margin: 20px;
+}
