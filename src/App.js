@@ -9,8 +9,6 @@ import Punjabi from "./Components/Content/Genre/Punjabi/Punjabi";
 import International from "./Components/Content/Genre/International/International";
 import Profile from "./Components/Content/Profile/Profile";
 import NewReleases from "./Components/Content/New Release/NewReleases";
-import ApiIntegration from "./Components/ApiIntegration/ApiIntegration";
-
 
 function App() {
   return (
@@ -21,13 +19,15 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/Hindi" element={<Hindi />} />
           <Route path="/Punjabi" element={<Punjabi />} />
-          <Route path="/International" element={<International/>} />
+          <Route path="/International" element={<International />} />
           <Route path="/Profile" element={<Profile />} />
           <Route path="/New_Releases" element={<NewReleases />} />
         </Routes>
+        <div>jsdfhkshfkklsd</div>
+        <div>wioefigsdgegbdghhhetrj784748jkdjkds</div>
       </div>
     </Router>
-    )
+  );
 }
 
 export default App;
